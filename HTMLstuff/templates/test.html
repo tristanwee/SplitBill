@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .table1 {
+            border-collapse:collapse;
+            width:100%  ;
+            border:1px solid black;
+            table-layout:fixed;
+        }
+        .table1 td{
+            width:50px;
+        }
+        .table2 th,td{
+            border:1px solid black;
+            height:100px;
+        }
+        .table2 {
+            width:100%;
+            border-collapse:collapse;
+            text-align:center;
+            font-size:150%;
+
+        }
+        .table2 th{
+            height:70px;
+            background-color:rgba(60,106,157,0.93);
+            color:white;
+        }
+        #transaction {
+            width:60%;
+        }
+        .table2 tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+        .link {
+            text-decoration:none;
+            color:black;
+            display: block;
+            height: 100%;
+            width: 100%;
+            padding:35px 0 0 0;
+        }
+        .same {
+            width:10%;
+        }
+        .ok {
+            overflow-x:scroll;
+        }
+    </style>
+</head>
+<body>
+<div class="ok">
+<table class="table1">
+
+    <tr>
+        <th colspan='16'>Recent Friends you transacted with</th>
+    </tr>
+    <tr>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+        <td>John on 23/4/16</td>
+
+    </tr>
+</table>
+</div>
+<table class="table2">
+    <tr>
+        <th>Date</th>
+        <th id="transaction">Transaction</th>
+        <th class="same">Debit</th>
+        <th class="same">Credit</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>11/4/2017</td>
+        <td>Monster Curry</td>
+        <td></td>
+        <td>$75.60</td>
+        <td><a class='link' href="/page">Can Be Split</a></td>
+    </tr>
+    <tr>
+        <td>27/3/2017</td>
+        <td>Uniqlo</td>
+        <td></td>
+        <td>$56.45</td>
+        <td>Split Processing</td>
+    </tr>
+        <td>2/3/2017</td>
+        <td>Pizza Hut</td>
+        <td></td>
+        <td>$60.50</td>
+        <td>Summary</td>
+</table>
+
+
+
+</body>
+</html>
